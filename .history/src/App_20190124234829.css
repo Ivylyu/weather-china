@@ -1,0 +1,112 @@
+body {
+  background-color: rgb(54, 110, 162);
+  padding: 20px;
+  margin: 0;
+}
+
+h1, h2, p, ul, li {
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+ul.header li {
+  display: inline;
+  list-style-type: none;
+  margin: 0;
+}
+
+ul.header {
+  background-color: #111;
+  padding: 0;
+}
+
+ul.header li a {
+  color: #FFF;
+  font-weight: bold;
+  text-decoration: none;
+  padding: 20px;
+  display: inline-block;
+}
+
+.content {
+  background-color: #FFF;
+  padding: 20px;
+  display:grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+}
+.content h2 {
+  padding: 0;
+  margin: 0;
+}
+.content li {
+  margin-bottom: 10px;
+}
+.active{
+  background-color:rgb(12, 130, 240);
+}
+
+.content .login {
+grid-row-start: 2;
+grid-row-end: 3;
+grid-column-start: 2;
+grid-column-end: 3;
+
+}
+
+.login .loginForm .test {
+ display:inline;
+ 
+}
+.login .loginForm input[type="checkbox"] {
+ width: 18px;
+ display:inline;
+ margin-top:0;
+ margin-bottom: 0;
+ vertical-align: middle;
+}
+
+.login .loginForm .aStyle{
+  text-align: right;
+  float:right;
+
+}
+
+.login .loginForm input {
+    width: 100%;
+    margin:20;
+    padding:10px;
+    font-size:16px;
+    margin:10px; 
+    background-color:  rgb(230, 232, 235);
+    color:#FFF;
+    box-sizing: border-box;
+    border:none;
+    display:block;
+}
+
+.login .loginForm button {
+    width:100%;
+    padding:10px;
+    font-size:16px;
+    margin:10px;
+    background-color:  #0066FF;
+    color:#FFF;
+    border:none; 
+    display: block;
+}
+
+.content .main-body .footer {
+    background: #0066FF;
+    grid-row-start: 3;
+grid-row-end: 4;
+grid-column-start: 1;
+grid-column-end: 4;
+}
+
+.footer .help-info {
+
+}
+
+.footer contact {
+
+}
